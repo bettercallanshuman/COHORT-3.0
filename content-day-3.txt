@@ -1,0 +1,20 @@
+Slide 1: The Hook & Core Web Vitals
+(Visual: Big bold text on a dark background)
+Headline: Stop killing your Core Web Vitals. 📉
+Body:
+
+Prevent Layout Shifts (CLS): Always set explicit width and height attributes on your <img> tags so the browser reserves space before loading.  
+
+Improve Load Times (LCP): Never lazy-load your hero image. Only use loading="lazy" on images below the fold.  
+
+Slide 2: Native Features (Zero JS required)
+(Visual: Clean code snippet aesthetic)
+Headline: HTML tags that feel like JavaScript. 🤯
+Body:
+Why write hundreds of lines of JS when HTML has it built-in?
+
+<details> & <summary>: Creates a fully functional, keyboard-navigable accordion natively.  
+
+<dialog>: A native modal that automatically handles background backdrops and focus-trapping.  
+
+<datalist>: Creates a searchable dropdown autocomplete for your input fields.  
