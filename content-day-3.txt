@@ -34,3 +34,21 @@ Body:
 defer: Downloads in parallel, but executes in order only after the HTML is fully parsed. Use this for most of your scripts.  
 
 async: Downloads in parallel and executes immediately once downloaded, in no guaranteed order. Only use this for completely independent scripts (like analytics).
+
+
+Slide 3: Accessibility (ARIA)
+(Visual: High contrast, warning aesthetic)
+Headline: The First Rule of ARIA 🛑
+Body:
+Don't use ARIA when native HTML can do the job. A <button> is already accessible.  
+
+Pro-Tip: Use aria-live="polite" for dynamic content (like loading states or error messages). Without it, screen readers will completely miss the updates you inject after the page loads.  
+
+Slide 4: Performance Architecture
+(Visual: Split screen comparison)
+Headline: The Ultimate Interview Question: Async vs. Defer ⚡
+Body:
+
+defer: Downloads in parallel, but executes in order only after the HTML is fully parsed. Use this for most of your scripts.  
+
+async: Downloads in parallel and executes immediately once downloaded, in no guaranteed order. Only use this for completely independent scripts (like analytics).
